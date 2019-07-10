@@ -1,30 +1,16 @@
 const path = require('path')
 const express = require('express')
 
+const publicDirectoryPath = path.join(__dirname, '../public')
+const port = 3000
+
 const app = express()
+app.use(express.static(publicDirectoryPath))
 
-app.set('view engine', 'hbs')
-
-
-app.get('', (req, res) => {
-  res.render('index') 
+app.get('/', (req, res) => {
+  res.send('Hello world ')
 })
 
-app.get('/help', (req, res) => {
-  res.send('Help page.')
-})
-
-app.get('/about', (req, res) => {
-  res.send('<h1>About</h1>')
-})
-
-app.get('/weather', (req, res) => {
-  res.send([{
-    location: 'Salvador, Bahia, Brazil',
-    forecast: 'It is raining a lot'
-  }])
-})
-
-app.listen(3000, () => {
-  console.log('Server is up on port 3000.')
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`)
 })
