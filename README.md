@@ -5,12 +5,12 @@ node web-server
 Table of contents
 -----------------
 * [Express](#express)
-* [Handlebars](#handlebars)
+* [HBS](#hbs)
 
 <!--te-->
 
 Express
 =======
 
-Handlebars
+HBS
 ==========
