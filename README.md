@@ -1,5 +1,7 @@
 node web-server
 ===============
+A weather application that consumes mapbox.com and darksky.net and give you a forecast summary report of
+the place you want. 
 
 <!--ts-->
 Table of contents
