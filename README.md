@@ -1,6 +1,6 @@
-node web-server
+Weather app
 ===============
-A weather application that consumes mapbox.com and darksky.net and give you a forecast summary report of
+A weather application written in node.js that consumes mapbox.com and darksky.net and give you a forecast summary report of
 the place you want. 
 
 <!--ts-->
