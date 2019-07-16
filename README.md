@@ -6,22 +6,22 @@ the place you want.
 <!--ts-->
 Table of contents
 -----------------
-* [Usage](#usage)
+* [Installation and Usage](#installation-and-usage)
 * [Technologies covered](#technologies-covered)
   * [Express](#express)
   * [HBS](#hbs)
   * [Heroku](#heroku)
 
 <!--te-->
-Usage
-===========
+Installation and Usage
+======================
 
 Clone repository  
 ```bash
 git clone https://github.com/thalesbruno/weather-app-web
 ```
 
-On brand new node-web-server directory created, run `npm install` to install all project dependencies.  
+On brand new weather-app-web directory created, run `npm install` to install all project dependencies.  
 
 So, you'll be already able to start the app using `node src/app.js`.  
 
