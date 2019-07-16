@@ -18,7 +18,7 @@ Usage
 
 Clone repository  
 ```bash
-git clone https://github.com/thalesbruno/node-web-server
+git clone https://github.com/thalesbruno/weather-app-web
 ```
 
 On brand new node-web-server directory created, run `npm install` to install all project dependencies.  
