@@ -6,14 +6,31 @@ the place you want.
 <!--ts-->
 Table of contents
 -----------------
-* [Express](#express)
-* [HBS](#hbs)
-* [Heroku](#heroku)
+* [Usage](#usage)
+* [Technologies covered](#technologies-covered)
+  * [Express](#express)
+  * [HBS](#hbs)
+  * [Heroku](#heroku)
 
 <!--te-->
+Usage
+===========
+
+Clone repository  
+```bash
+git clone https://github.com/thalesbruno/node-web-server
+```
+
+On brand new node-web-server directory created, run `npm install` to install all project dependencies.  
+
+So, you'll be already able to start the app using `node src/app.js`.  
+
+
+Technologies covered
+====================
 
 Express
-=======
+-------
 >Express is a web framework for node.
 
 Install  
@@ -38,7 +55,7 @@ app.listen(3000, () => {
 :page_facing_up: [Read the docs](https://expressjs.com/en/4x/api.html)
 
 HBS
-===
+---
 >Express.js view engine for handlebars.js
 
 Install  
@@ -54,7 +71,7 @@ app.set('view engine', 'hbs')
 :page_facing_up: [Read the docs](https://www.npmjs.com/package/hbs)
 
 Heroku
-======
+------
 >Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps
 
 Install  
