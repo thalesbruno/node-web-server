@@ -1,7 +1,6 @@
 Weather app
 ===============
-A weather application written in node.js that consumes mapbox.com and darksky.net and give you a forecast summary report of
-the place you want. 
+A weather application written in `node.js` that gets from [mapbox.com](mapbox.com) the geocode location of your searched place, and use it to request from  [darksky.net](darksky.net) a forecast summary report of that location. Accessible at [https://thlsbrn-weather-app.herokuapp.com](https://thlsbrn-weather-app.herokuapp.com).
 
 <!--ts-->
 Table of contents
